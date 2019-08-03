@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function newGame() {
+            window.location.reload();
+        } 
+    </script>
+</head>
+
+<body>
+    <!--headline-->
+    <header>
+        <h1>Rock Paper Scissor</h1>
+    </header>
+
+    <div>
+        <h2 id="result">Let the game begin, <br>make your choice!!!</h2>
+    </div>
+    <!-- mainframe-->
+    <div class="mainFrame">
+        <div class="choice" id="rock">
+            <img src="Choices/Rock.png" alt="" style="widows: 100%;">
+        </div>
+        <div class="choice" id="paper">
+            <img src="Choices/Paper.png" alt="" style="widows: 100%;">
+        </div>
+        <div class="choice" id="scissor">
+            <img src="Choices/Scissor.png" alt="" style="widows: 100%;">
+        </div>
+    </div>
+
+    <div id="scoreBoard">
+        <div class="two">
+            <p id="topUser" style="text-align: center;"></p>
+        </div>
+    </div>
+
+    <div id="newGame">
+        <button type="submit" onClick="newGame()">NewGame</button>
+    </div>
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>

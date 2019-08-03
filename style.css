@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body{
+    background-color:#383836;
+}
+
+header{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 1.5%;
+}
+
+h1{
+color: #383836;
+}
+
+#result{
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+}
+
+.mainFrame{
+text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+
+.choice{
+display:inline-block;
+padding: 2%;
+border-radius: 50%;
+border-color: #ffffff;
+border: 10px;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+#scoreBoard{
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    width: 20%;
+    height: 60px;
+    border-style: solid;
+    border-color: white;
+    border-width: medium;
+    border-radius: 15px;
+    display: none;
+}
+
+#newGame{
+    text-align: center;    
+    size: 20px;
+}
